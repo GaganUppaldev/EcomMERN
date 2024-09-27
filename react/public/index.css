@@ -1,5 +1,18 @@
+#header {
+    display: flex;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#head-svg {
+    flex-grow: 1; /* Adjust this value as needed */
+    width: 70px; /* Define width explicitly if needed */
+}
+
+
+
 #box {
-    width: 99.89vw; /* Your specified width */
+    width: 99vw; /* Your specified width */
     height: 500px; /* Your specified height */
     background-image: url('https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover; /* Makes the image cover the entire div */
@@ -10,4 +23,142 @@
     margin-top: -7px; /* Your specified top margin */
     margin-left: -9px; /* Your specified left margin */
 }
+
+#box2 {
+    height: 700px;
+    width: 99vw;
+    margin-top: 10px;
+    border: solid red 2px;
+    position: relative; /* Ensure it's positioned */
+    z-index: 1; /* Make it visible if overlapped */
+    background-color: whitesmoke; /* Add background for visibility */
+    margin-left: -13px;
+}
+
+#heropic{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    
+
+  
+}
+
+#box2A{
+    border: solid red 2px;
+    height: 80vh;
+    width: 30vw;
+    border-radius: 5px;
+    
+    
+
+    
+ 
+
+}
+#box2B{
+    border: solid blue 2px;
+    height: 80vh;
+    width: 30vw;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+#update{
+    border: solid red 2px;
+    width: 99%;
+    height: 300px;
+     margin-top: 10px ;
+}
+
+#intro{
+
+    border: solid red 2px;
+    width: 99%;
+    height: 100px;
+     margin-top: 10px ;
+
+}
+
+#prod {
+    border: solid red 2px;
+    width: 99%;
+    height: 250px; /* Adjust height if needed */
+    margin-top: 10px;
+    display: flex;
+    gap: 10px; /* Adds space between the flex items */
+    justify-content: space-around; /* Distributes space evenly */
+}
+
+.prod {
+    border: solid blue 2px; /* Changed to blue to differentiate */
+    width: 10vw;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#prod2 {
+    border: solid green 2px; /* Optional for differentiation */
+    width: 99%;
+    height: 250px;
+    margin-top: 0px; /* Distance from the first row */
+    display: flex;
+    gap: 10px; /* Adds space between the flex items */
+    justify-content: space-around; /* Distributes space evenly */
+
+}
+
+.prod2 {
+    border: solid blue; /* Changed to yellow to differentiate */
+    width: 10vw;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#special-deal{ 
+    border: solid red 2px ;
+
+    width: 98vw; /* Your specified width */
+    height: 500px; /* Your specified height */
+    /*background-image: url('https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');*/
+    background-size: cover; /* Makes the image cover the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /*border-radius: 5px; */
+    overflow: hidden; /* Prevents overflow */
+    margin-top: -7px; /* Your specified top margin */
+    margin-left: -9px; /* Your specified left margin */
+    margin-top: 10px;
+
+
+}
+
+#history1{
+    border: solid blue 2px;
+    width: 99%;
+    height: 300px;
+    margin-top: 10px ;
+    
+}
+
+#pro1{
+    border: solid blue 2px;
+    width: 99%;
+    height: 100px;
+    margin-top: 10px ;
+    
+}
+
+#end{
+    border: solid red 2px;
+    width: 99%;
+    height: 300px;
+    margin-top: 10px ;
+    
+}
+
+
+
 
