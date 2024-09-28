@@ -4,8 +4,8 @@ function Box2(){
         <>
         <div id="heropic">
 
-        <div id="box2A"></div>
-        <div id="box2B"></div>
+        <div id="box2A"><h1 id="box2A-text">Women</h1></div>
+        <div id="box2B"><h1 id="box2B-text">Men</h1></div>
 
 
         </div>
