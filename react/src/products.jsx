@@ -3,7 +3,14 @@ import React from "react";
 function Product() {
     return (
         <>    
-            <div id="intro"></div>
+            <div id="intro">
+                <div id="intro-a">All Products</div>
+                <div>Clothing</div>
+                <div>Bags</div>
+                <div>Shoes</div>
+                <div id="intro-acc">Accessories</div>
+                <div id="intro-all">ALL PRODUCTS</div>
+            </div>
 
             <div id="prod">
                 <div className="prod"></div>
@@ -25,4 +32,3 @@ function Product() {
 }
 
 export default Product;
-
