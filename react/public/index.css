@@ -28,7 +28,7 @@
     height: 700px;
     width: 99vw;
     margin-top: 10px;
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     position: relative; /* Ensure it's positioned */
     z-index: 1; /* Make it visible if overlapped */
     background-color: whitesmoke; /* Add background for visibility */
@@ -46,44 +46,108 @@
 }
 
 #box2A{
-    border: solid red 2px;
+/* border: solid red 2px;*/
     height: 80vh;
     width: 30vw;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     border-radius: 5px;
-    
-    
-
-    
- 
-
+    background-image: url('https://images.unsplash.com/photo-1594843310428-7eb6729555e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZhc2hpb24lMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D');
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+#box2A-text{
+    font-size: 50px;
+    margin-top: 30vh;
+    margin-left: 9vw;
 }
 #box2B{
-    border: solid blue 2px;
+   /* border: solid blue 2px;*/
     height: 80vh;
     width: 30vw;
     border-radius: 5px;
     margin-left: 10px;
+    background-image: url('https://images.unsplash.com/photo-1669575903350-9a349b411810?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
 
+#box2B-text{
+    font-size: 50px;
+    margin-top: 30vh;
+    margin-left: 9vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 #update{
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     width: 99%;
-    height: 300px;
-     margin-top: 10px ;
+    height: 230px;
+    margin-top: 10px ;
+    
+}
+
+#update-A{
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#update-heading{
+    margin-left: 90vh;
+    font-size: 25px;
+}
+
+.arrival-section {
+    margin-bottom: 15px;
+    
+
+    
+}
+
+
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
 }
 
 #intro{
 
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     width: 99%;
-    height: 100px;
-     margin-top: 10px ;
+    height: 25px;
+    font-family: 'Roboto',sans-serif;
+    font-size: large;
+    color: silver;
+    margin-top: 10px ;
+    display: flex;
+    gap: 10px
+}
+#intro-a{
+    color: black;
+}
+#intro-acc{
+    flex-grow: 5;
+
+}
+#intro-all{
+    color: palevioletred;
 
 }
 
 #prod {
-    border: solid red 2px;
+    /*border: solid red 2px;*/
     width: 99%;
     height: 250px; /* Adjust height if needed */
     margin-top: 10px;
@@ -93,14 +157,14 @@
 }
 
 .prod {
-    border: solid blue 2px; /* Changed to blue to differentiate */
+    /*border: solid blue 2px; */
     width: 10vw;
     height: 200px;
     border-radius: 5px;
 }
 
 #prod2 {
-    border: solid green 2px; /* Optional for differentiation */
+    /*border: solid green 2px; */
     width: 99%;
     height: 250px;
     margin-top: 0px; /* Distance from the first row */
@@ -111,18 +175,18 @@
 }
 
 .prod2 {
-    border: solid blue; /* Changed to yellow to differentiate */
+   /* border: solid blue; */
     width: 10vw;
     height: 200px;
     border-radius: 5px;
 }
 
 #special-deal{ 
-    border: solid red 2px ;
+    /*border: solid red 2px ;*/
 
     width: 98vw; /* Your specified width */
     height: 500px; /* Your specified height */
-    /*background-image: url('https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');*/
+    background-image: url('https://images.unsplash.com/photo-1594748504715-2e715b1034bf?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover; /* Makes the image cover the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -136,29 +200,164 @@
 }
 
 #history1{
-    border: solid blue 2px;
+    /*border: solid blue 2px;*/
     width: 99%;
     height: 300px;
     margin-top: 10px ;
     
+}
+
+#history1 h1 {
+    font-size: 2.5em; /* Larger size for the first heading */
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#history1 p {
+    font-size: 1.1em; /* Smaller size for the rest of the text */
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#history1 p:first-of-type {
+    margin-top: 10px;
 }
 
 #pro1{
-    border: solid blue 2px;
-    width: 99%;
+    /*border: solid blue 2px;*/
+    width: 96%;
     height: 100px;
     margin-top: 10px ;
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 280px;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature svg {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-text h4 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.feature-text p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
 }
 
 #end{
-    border: solid red 2px;
-    width: 99%;
-    height: 300px;
+    /*border: solid red 2px;*/
+    width: 97%;
+    height: 500px;
     margin-top: 10px ;
+    
+    padding: 20px;
+    
+    text-align: center;
     
 }
 
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+.contact-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
 
+.contact-section p {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.email-section {
+    margin-bottom: 30px;
+}
+
+.email-section label {
+    display: block;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.email-section input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.links-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.link-group {
+    text-align: left;
+}
+
+.link-group h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.link-group ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-group ul li {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.link-group ul li:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
 
