@@ -9,6 +9,7 @@ import History from './history.jsx';
 import Pro from './pro.jsx';
 import Footer from './footer.jsx';
 import './index.css';
+import './products.css';
 import './images/cart.svg';
 
 const test = ReactDOM.createRoot(document.getElementById("navbar"));
